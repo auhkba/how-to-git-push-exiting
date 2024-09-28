@@ -29,3 +29,12 @@ git push -u -f origin main
 The `-u` (or `--set-upstream`) flag sets the remote `origin` as the upstream reference. This allows you to later perform `git push` and `git pull` commands without having to specify an `origin` since we always want GitHub in this case.
 
 The `-f` (or `--force`) flag stands for force. This will automatically overwrite everything in the remote directory. We’re using it here to overwrite the default README that GitHub automatically initialized
+
+
+# git still shows files as modified after adding to .gitignore
+```
+git rm -r --cached .
+git add .
+git commit -m 'Removing ignored files'
+git push
+```
