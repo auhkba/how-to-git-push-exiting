@@ -38,3 +38,23 @@ git add .
 git commit -m 'Removing ignored files'
 git push
 ```
+
+# Ignore files that have already been committed
+1. commit any outstanding code changes, ' . ' meaning any, to removes everything from the index
+```
+git rm -r --cached .
+```
+
+or stop tracking the file but not delete it from your system use: `git rm --cached filename`
+
+2. run
+```
+git add .
+```
+
+3. commit it:
+```
+git commit -m ".gitignore is now working"
+```
+
+
