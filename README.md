@@ -21,14 +21,15 @@ git commit -m 'initial'
 git remote add origin git@github.com:<username/projectname.git>
 ```
 
-      1.  Remove the Existing Remote:(if done somthing wrong)
-      ```
-      git remote remove origin
-      ```
-      2. After remove, add back 
-      ```
-      git remote add origin git@github.com:auhkba/LINE.git
-      ```
+1.  Remove the Existing Remote:(if done somthing wrong)
+```
+git remote remove origin
+```
+
+2. After remove, add back 
+```
+git remote add origin git@github.com:auhkba/LINE.git
+```
 
 ## Push to GitHub
 ```
