@@ -22,14 +22,14 @@ git remote add origin git@github.com:<username/projectname.git>
 ```
 
 1.  Remove the Existing Remote:(if done somthing wrong)
-```
-git remote remove origin
-```
+  ```
+  git remote remove origin
+  ```
 
 2. After remove, add back 
-```
-git remote add origin git@github.com:auhkba/LINE.git
-```
+  ```
+  git remote add origin git@github.com:auhkba/LINE.git
+  ```
 
 ## Push to GitHub
 ```
@@ -43,14 +43,14 @@ The `-f` (or `--force`) flag stands for force. This will automatically overwrite
 # Troubleshooting
 — error: src refspec main does not match any — usually happens because you are trying to push a branch that does not exist yet in your local repository.
 1.	Check the Current Branch:
-```
-git branch
-```
+  ```
+  git branch
+  ```
 
 2. Rename the Current Branch to main (if needed):
   ```
-git branch -m master main
-```
+  git branch -m master main
+  ```
 
 3. Push the Local Branch to the Remote:
    ```
