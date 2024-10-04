@@ -21,11 +21,11 @@ git commit -m 'initial'
 git remote add origin git@github.com:<username/projectname.git>
 ```
 
-      * Remove the Existing Remote:(if done somthing wrong)
+      1.  Remove the Existing Remote:(if done somthing wrong)
       ```
       git remote remove origin
       ```
-      * After remove, add back 
+      2. After remove, add back 
       ```
       git remote add origin git@github.com:auhkba/LINE.git
       ```
