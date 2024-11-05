@@ -86,4 +86,17 @@ git add .
 git commit -m ".gitignore is now working"
 ```
 
+# Go to G: online Drive ###bash###
+```
+cd /g
+```
+```
+pwd
+```
+cd "My Drive"
+```
+```
+ls
+```
+
 
