@@ -101,5 +101,16 @@ cd "My Drive"
 ```
 ls
 ```
+# Make a fresh git repo from existing folder
+    ```
+    cd /path/to/your/copied-folder
+    rm -rf .git
+    git init
+    git add .
+    git commit -m "Initial commit for new repository"
+    git remote add origin git@github.com:yourusername/new-repo.git
+    git branch -M main      # (if necessary, Renames current branch to 'main', If you receive an error saying that there is no main branch, you may be on a different branch, such as master.)
+    git push -u origin main
+    ```
 
 
