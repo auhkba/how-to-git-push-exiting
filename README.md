@@ -105,6 +105,9 @@ ls
     ```
     cd /path/to/your/copied-folder
     rm -rf .git
+    rm -rf subfolder_1/.git       # (if subfolders are in warning embedded git repo)
+    rm -rf subfolder_2/.git       # ...
+    ...                           # ...
     git init
     git add .
     git commit -m "Initial commit for new repository"
