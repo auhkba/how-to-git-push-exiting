@@ -109,7 +109,7 @@ ls
     rm -rf subfolder_2/.git       # ...
     ...                           # ...
     git init
-    git add .
+    git add .                     # warning: adding embedded git repository: subfolder_1 (appearing here)
     git commit -m "Initial commit for new repository"
     git remote add origin git@github.com:yourusername/new-repo.git
     git branch -M main      # (if necessary, Renames current branch to 'main', If you receive an error saying that there is no main branch, you may be on a different branch, such as master.)
